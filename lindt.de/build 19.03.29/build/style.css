@@ -1,0 +1,89 @@
+.closedElementKam {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  transition: .1s; }
+
+.closedElementKam:hover {
+  transform: scale(1.1); }
+
+.closedElementKam:after {
+  content: '';
+  width: 2px;
+  height: 26px;
+  background: #c4a964;
+  position: absolute;
+  transform: rotate(45deg);
+  top: 2px;
+  right: 14px; }
+
+.closedElementKam:before {
+  content: '';
+  width: 2px;
+  height: 26px;
+  background: #c4a964;
+  position: absolute;
+  transform: rotate(-45deg);
+  top: 2px;
+  right: 14px; }
+
+#popinElementKam {
+  margin: 10px;
+  width: 600px;
+  height: 375px;
+  background: url("https://trello-attachments.s3.amazonaws.com/59cb9a2e10e8dee2ea874634/5c939fdfb34d9e3b883108ce/d5d50554875971ccbdf1ad4f3c56f100/Goldhase2.jpg") #fff;
+  background-position: -167px 0;
+  background-size: 140%;
+  font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+  padding-left: 30px;
+  position: fixed;
+  left: 50%;
+  margin-left: -300px;
+  top: 50%;
+  margin-top: -183px;
+  z-index: 199;
+  border: 10px solid #fff; }
+
+#popinElementKam > h1 {
+  font-size: 39px;
+  font-weight: bold;
+  font-family: 'Optima nova LT W02', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+  color: #c4a964;
+  padding-top: 32px;
+  margin-bottom: 0px !important;
+  text-transform: capitalize; }
+
+#popinElementKam p {
+  color: #000;
+  font-size: 23px;
+  width: 340px;
+  padding-top: 25px;
+  line-height: 1.2em; }
+
+#popinElementKam button {
+  width: 230px;
+  text-transform: uppercase;
+  font-size: 20px;
+  background-color: #1a3a8d;
+  outline: none;
+  color: #fff;
+  padding: 5px 15px;
+  border: none;
+  transition: .25s; }
+
+#popinElementKam button:hover {
+  background-color: #4f72cc; }
+
+#popinElementBackKam {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  z-index: 1; }

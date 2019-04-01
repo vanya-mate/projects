@@ -1,0 +1,201 @@
+#popInElementKam * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+#popInElementKam {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 999; }
+
+#closedPopInKam {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  background: #333;
+  cursor: pointer; }
+
+#closedPopInKam:after {
+  width: 2px;
+  height: 34px;
+  background: #aaa;
+  content: '';
+  position: absolute;
+  z-index: 2;
+  top: 8px;
+  left: 24px;
+  transform: rotate(45deg); }
+
+#closedPopInKam:before {
+  width: 2px;
+  height: 34px;
+  background: #aaa;
+  content: '';
+  position: absolute;
+  z-index: 2;
+  top: 8px;
+  left: 24px;
+  transform: rotate(-45deg); }
+
+#wrapperElementContentKam {
+  width: 1000px;
+  height: 930px;
+  background: #fff;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  margin: auto; }
+
+#popInHeaderImgKam {
+  width: 100%;
+  height: 300px;
+  overflow: hidden; }
+
+#popInHeaderImgKam > img {
+  width: inherit;
+  margin-top: -150px; }
+
+#popInContentKam {
+  width: 100%;
+  height: 630px;
+  padding: 43px 50px 46px; }
+
+.popInContentRowKam {
+  overflow: hidden; }
+
+#popInElementKam h3 {
+  font: 28px "Renault Regular";
+  float: left; }
+
+.selectKam {
+  height: 40px;
+  text-indent: 10px;
+  font-family: "Renault Regular";
+  position: relative;
+  display: inline-block; }
+
+#selectMarkAutoKam {
+  float: right;
+  width: 510px;
+  font-size: 20px; }
+
+#selectMarkAutoKam option {
+  height: 10px; }
+
+.bigMarginKam {
+  margin-top: 40px !important; }
+
+.veryLowMarginKam {
+  margin-top: 18px !important; }
+
+#searchCiviliteKam {
+  width: 280px;
+  font-size: 18px; }
+
+.inputStyleKam {
+  height: 40px;
+  text-indent: 10px;
+  font: 18px "Renault Regular"; }
+
+.inputFirstRowKam {
+  display: block;
+  width: 288px;
+  float: right;
+  overflow: hidden; }
+
+.fixSpace22pxKam {
+  width: 22px;
+  height: 40px;
+  float: right;
+  overflow: hidden; }
+
+.lowMarginKam {
+  margin-top: 20px !important; }
+
+.inputTwoRowKam {
+  display: block;
+  float: right;
+  width: 439px; }
+
+.labelRadioKam {
+  width: 100px;
+  font: 16px "Renault Regular";
+  float: left; }
+
+.popInContentRowKam h4 {
+  padding-top: 35px !important;
+  padding-bottom: 25px !important;
+  font: 24px "Renault Regular"; }
+
+.popInContentRowKam p {
+  font: 16px "Renault Regular";
+  padding-top: 25px !important;
+  padding-bottom: 15px !important; }
+
+.inputThreeRowKam {
+  width: 435px; }
+
+.radioElementsKam input {
+  visibility: hidden;
+  float: right; }
+
+.radioElementsKam label {
+  float: left;
+  margin-right: 10px !important;
+  overflow: hidden;
+  cursor: pointer;
+  font: 16px "Renault Regular"; }
+
+.radioElementsKam label:nth-child(2n) {
+  padding-right: 10px !important; }
+
+#radioEmailYesKam:checked ~ #labelEmailYesKam {
+  background: #afa; }
+
+#radioEmailNoKam:checked ~ #labelEmailNoKam {
+  background: #afa; }
+
+#radioSmsYesKam:checked ~ #labelSmsYesKam {
+  background: #afa; }
+
+#radioSmsNoKam:checked ~ #labelSmsNoKam {
+  background: #afa; }
+
+.radioButtonKam {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #777;
+  transition: .2s; }
+
+.popInContentRowKam a {
+  display: inline-block;
+  color: #777;
+  margin: 25px 0 !important;
+  font: 16px "Renault Regular"; }
+
+.overflowOffKam {
+  overflow: visible !important; }
+
+.popInContentRowKam button {
+  float: right;
+  width: 250px;
+  background: #fc1;
+  border: none;
+  outline: none;
+  padding: 10px !important;
+  text-transform: uppercase;
+  font-family: "Renault Bold";
+  cursor: pointer;
+  margin-top: -10px !important; }
+
+#noteContentKam {
+  float: left;
+  font: 16px "Renault Regular"; }

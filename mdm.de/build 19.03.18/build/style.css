@@ -1,0 +1,119 @@
+@charset "UTF-8";
+.fancybox-title-test {
+  font: 16px 'Helvetica Neue' !important;
+  color: #000 !important; }
+
+#fancybox-wrapper-blocks-test {
+  overflow: hidden;
+  margin: 20px 0 0;
+  width: 860px;
+  color: #000; }
+
+#fancybox-left-block-test {
+  width: 350px;
+  float: left; }
+
+.fancy-title-block-test {
+  font: 22px 'Helvetica Neue' !important;
+  margin-top: 5px; }
+
+.fancy-title-block-test.title-grey-test {
+  color: #999; }
+
+.fancy-title-block-test.title-blue-test {
+  color: #13a; }
+
+.fancy-img-height-test {
+  height: 360px; }
+
+.fancy-img-height-test > img {
+  width: 280px;
+  display: block;
+  margin: 20px auto 40px; }
+
+.fancy-width-100-test {
+  width: 100% !important; }
+
+.fancy-name-product-test {
+  font: 20px 'Georgia' !important;
+  color: #000;
+  height: 70px; }
+
+.fancy-info-product-test {
+  height: 70px; }
+
+.fancy-info-product-left-test {
+  width: 50%;
+  float: left; }
+
+.fancy-have-product-test {
+  font: 17px "Georgia";
+  color: #1b1;
+  padding-bottom: 4px; }
+
+.fancy-info-product-row1-test,
+.fancy-info-product-row2-test {
+  font: 14px "Georgia"; }
+
+.fancy-info-product-row2-test a {
+  color: #000; }
+
+.fancy-info-product-right-test {
+  width: 50%;
+  height: 60px;
+  position: relative;
+  float: right; }
+
+.fancy-info-price-test {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font: 35px "Georgia";
+  color: #935; }
+
+.fancy-button-test {
+  padding: 12px;
+  text-align: center;
+  color: #eee;
+  font: 20px "Georgia";
+  border-radius: 5px;
+  margin: 10px 0 20px;
+  position: relative;
+  cursor: pointer;
+  transition: .1s; }
+
+.fancy-button-test:before {
+  position: absolute;
+  top: 11px;
+  right: 15px;
+  content: '›';
+  font-weight: bold;
+  font-size: 20px; }
+
+.fancy-button-grey-test {
+  background: #777; }
+
+.fancy-button-grey-test:hover {
+  background: #888; }
+
+.fancy-button-red-test {
+  background: #935; }
+
+.fancy-button-red-test:hover {
+  background: #b46; }
+
+.fancy-sail-product-test {
+  text-align: right;
+  font: 16px "Georgie";
+  color: #935; }
+
+.fancy-sail-product-test span {
+  text-decoration: line-through;
+  font-weight: bold;
+  font-size: 22px; }
+
+#fancybox-right-block-test {
+  width: 470px;
+  float: right;
+  border-left: 1px solid #935;
+  padding-left: 20px; }

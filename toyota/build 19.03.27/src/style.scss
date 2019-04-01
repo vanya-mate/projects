@@ -1,0 +1,108 @@
+@media only screen and (max-width: 1300px) {
+  .fixCenterCam * {
+    font-size: 14px !important;
+  }
+  .fixCenterCam .description {
+    line-height: 2rem !important;
+  }
+  .fixCenterCam .description * {
+    font-size: 13px !important;
+    line-height: 2rem !important;
+  }
+}
+@media only screen and (max-width: 1070px) {
+  .fixCenterCam * {
+    font-size: 11px !important;
+  }
+  .fixCenterCam .description {
+    line-height: 1.5rem !important;
+  }
+  .fixCenterCam .description * {
+    font-size: 10px !important;
+    line-height: 1.5rem !important;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .fixCenterCam * {
+    font-size: 10px !important;
+  }
+  .fixCenterCam .description {
+    line-height: 1.5rem !important;
+  }
+  .fixCenterCam .description * {
+    font-size: 10px !important;
+    line-height: 1.5rem !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .fixCenterCam * {
+    font-size: 16px !important;
+  }
+  .fixCenterCam .description {
+    line-height: 2.5rem !important;
+  }
+  .fixCenterCam .description * {
+    font-size: 15px !important;
+    line-height: 2.5rem !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .fixCenterCam * {
+    font-size: 14px !important;
+  }
+  .fixCenterCam .description {
+    line-height: 2rem !important;
+  }
+  .fixCenterCam .description * {
+    font-size: 13px !important;
+    line-height: 2rem !important;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .fixCenterCam * {
+    font-size: 12px !important;
+  }
+  .fixCenterCam .description {
+    line-height: 1.5rem !important;
+  }
+  .fixCenterCam .description * {
+    font-size: 11px !important;
+    line-height: 1.5rem !important;
+  }
+}
+.spotlight-box {
+  margin-bottom: 56px !important;
+  position: relative;
+}
+.spotlight-box > img {
+  margin-bottom: 0px !important;
+}
+.spotlight-box > .container-description {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  top: 100%;
+  margin-top: -42px;
+  padding: 8px 18px 0 !important;
+  color: #fff !important;
+  background: rgba(0, 0, 0, .5);
+}
+.spotlight-box:hover > .container-description {
+  top: 0;
+  margin-top: 1%;
+  padding-top: 0px !important;
+}
+.spotlight-box:hover > .container-description .fixCenterCam {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.description * {
+  font-size: 16px !important;
+  color: #fff !important;
+}
+.spotlight-box > .container-description strong {
+  font-family: 'T1 Body Font';
+  font-weight: normal !important;
+}

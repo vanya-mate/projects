@@ -1,0 +1,74 @@
+.closedElementKam {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  transition: .1s; }
+
+.closedElementKam:hover {
+  transform: scale(1.1); }
+
+.closedElementKam:after {
+  content: '';
+  width: 2px;
+  height: 26px;
+  background: #ffa;
+  position: absolute;
+  transform: rotate(45deg);
+  top: 2px;
+  right: 14px; }
+
+.closedElementKam:before {
+  content: '';
+  width: 2px;
+  height: 26px;
+  background: #ffa;
+  position: absolute;
+  transform: rotate(-45deg);
+  top: 2px;
+  right: 14px; }
+
+#popinElementKam {
+  margin: 10px;
+  width: 600px;
+  height: 375px;
+  background: url("https://trello-attachments.s3.amazonaws.com/59cb9a2e10e8dee2ea874634/5c939fdfb34d9e3b883108ce/38648e3c4d3aedfdb8b5890a086b2dd3/LIN_Exit-Intent_Hintergrund.jpg");
+  background-size: cover;
+  font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+  text-align: center;
+  position: fixed;
+  left: 50%;
+  margin-left: -300px;
+  top: 50%;
+  margin-top: -183px;
+  z-index: 199; }
+
+#popinElementKam > h1 {
+  font-size: 39px;
+  font-weight: bold;
+  color: #C3A64D;
+  padding-top: 32px;
+  margin-bottom: 0px !important; }
+
+#popinElementKam p {
+  display: block;
+  margin: auto;
+  font-size: 24px;
+  width: 340px;
+  padding-top: 25px; }
+
+#popinElementKam button {
+  width: 230px;
+  text-transform: capitalize;
+  font-size: 20px;
+  background-color: #1a3a8d;
+  outline: none;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 5px 15px;
+  border: none;
+  margin-top: 60px; }
